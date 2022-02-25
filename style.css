@@ -337,3 +337,39 @@ td {
 th {
     background-color: #031448;
 }
+
+.faq {
+    padding-bottom: 30px;
+}
+
+.accordion-item {
+    background-color: #1f1b90 !important;
+}
+
+.question {
+    font-size: 18px;
+    color: rgb(8, 177, 233);
+}
+
+.accordion-button {
+    font-size: 18px;
+    background-color: #302bbb;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(8, 177, 233) !important;
+    color: white;
+    box-shadow: none;
+}
+
+.accordian-button:hover {
+    background-color: rgb(8, 177, 233) !important;
+}
